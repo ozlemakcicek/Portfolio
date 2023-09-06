@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.about__img{
+    width: 350px;
+    border-radius: 1.5rem;
+    justify-self: center;
+    margin-top: -22rem;
+}
+
+section{
+    color: rgb(225, 225, 225);
+    /* color: rgb(193, 219, 179); */
+        position: relative;
+        transition: all 1s ease-in-out 0s;
+        opacity: 1;
+       
+}
+
+ .Ttitle{
+        display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+           
+            position: relative;
+            overflow: hidden;
+            height: 60px;
+            color: rgb(255, 255, 255);
+            /* color: rgb(193, 219, 179); */
+            align-items: center;
+          margin-left: 6rem;
+           
+            
+} 
+
+
+.section__title{
+    color: rgb(34, 222, 65);
+
+    
+}
+.section__subtitle {
+   font-size: var(--h2-font-size);
+   
+color: rgba(35, 243, 191, 0.854);
+margin-bottom: 2rem;
+margin-top: 3rem;
+}
+
+
+.button{
+    margin: 2rem 0px;
+        
+
+        font-size: 1.65rem;
+        background: repeating-linear-gradient(45deg, rgb(130, 222, 148), rgb(232, 95, 193) 20px, rgb(122, 227, 157) 20px, rgb(146, 240, 109) 25px);
+        /* color: rgb(2, 9, 87); */
+        font-weight: bold;
+        /* display: block; */
+   
+        position: relative;
+        transition: all 300ms ease-in 0s;
+}
+
+.about__container {
+    /* margin-left: 10rem;
+    margin-top: 3rem; */
+
+    grid-template-columns: repeat(2,1fr);
+    /* 2 tane 1 fragment olcusunde esit bol colon lari demek */
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.about__info{
+    grid-template-columns: repeat(3,140px);
+    gap: 0.5rem;
+    margin-bottom: var(--mb-2);
+   
+}
+
+.about__box{
+   background-color:rgba(105, 2, 80, 0.511);
+   border: 1px solid ;
+   border-radius: 0.75rem;
+   text-align: center;
+   padding: 1rem 0.5rem;
+  
+}
+
+.about__icon{
+    font-size: 1.5rem;
+    /* color: var(--title-color); */
+    margin-bottom: var(--mb-0-5);
+}
+
+.about__title{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+
+.about__subtitle{
+    font-size: var(--small-font-size);
+}
+
+
+
+/* *********************** */
+
+@media  screen and (max-width:992px) {
+/* .Ttitle {
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        position: relative;
+        overflow: hidden;
+        height: 60px;
+        color: rgb(255, 255, 255);
+        align-items: center;
+        margin-left: 6rem;
+    }
+
+ .about__container {
+     margin-left: 10rem;
+     margin-top: 3rem;
+ } */
+
+ .about__container{
+    grid-template-columns: 1fr;
+    row-gap: 2.5rem;
+ }
+
+ .about__img{
+    width: 220px;
+    
+            margin-top: 2rem;
+     
+ }
+
+ .about__box{
+    padding: 0.75rem 0.5rem;
+ }
+ .about__data{
+    text-align: center;
+ }
+
+ .about__info{
+    justify-content: center;
+ }
+ .about__description{
+    padding: 0 5rem;
+    margin-bottom: 2rem;
+ }
+}
+
+@media screen and (max-width:768px) {
+    
+/* .Ttitle {
+    
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+            height: 60px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+      
+       
+    
+        }
+       .about__container{
+    margin-left: 3rem;
+       }          */
+       .about__img{
+        margin-top: 2rem;
+       }
+}
+
+
+@media screen and (max-width:576px) {
+    /* .Ttitle {
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+            height: 60px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            margin-left: 2rem;
+    
+        } */
+        .about__info{
+            grid-template-columns: repeat(3,1fr);
+        }
+
+        .about__description{
+            padding: 0;
+        }
+    }
+
+@media screen and (max-width:350px) {
+
+    .about__info{
+        grid-template-columns: repeat(2,1fr);
+    }
+}

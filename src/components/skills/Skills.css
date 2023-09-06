@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.section{
+   grid-template-columns: repeat(3,1fr);
+    gap: 2.5rem;
+        color: rgb(225, 225, 225);
+            margin-bottom: 2rem;
+}
+.cizgi{
+        display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+            height: 60px;
+            color: rgb(255, 255, 255);
+}
+.Sspan{
+        color: rgb(41, 120, 160)
+}
+
+@media screen and (max-width:1150px){
+    .statue{
+        right: -350px;
+        transform: scale(0.7);
+    }
+    
+}
+
+.statue{
+    display: block;
+    z-index: 3;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    position: absolute;
+    float: right;
+    background-image:url(/src/assets/business-3639451_1280.jpg) ;
+        overflow: visible !important;
+}
+
+.tablo{
+    display: grid;
+    gap: 2.5rem;
+    align-items: flex-start;
+}
+.langtbl{
+        color: rgb(225, 225, 225);
+}

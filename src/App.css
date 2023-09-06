@@ -14,15 +14,16 @@
 
 --hue:0;
 --sat: 0%;
---title-color: hsl(var(--hue), var(--sat), 20%);
---title-color-dark: hsl(var(--hue), var(--sat),0%);
+--title-color: hsl(var(--hue), var(--sat), 50%);
+--title-color-dark: hsl(var(--hue), var(--sat),50%);
 --text-color: hsl(var(--hue), var(--sat), 46%);
 --body-color:hsl(var(--hue), var(--sat), 98%);
---container-color: #fff;
+--container-color: rgb(39, 56, 57);
 
 
 /** =========================== Font und Typography =====================*/
---body-font: 'Poppins', sans-serif;
+--body-font: Roboto Mono,
+  monospace;
 
 /* .5rem=8px | 1rem=16px ...*/
 
@@ -30,7 +31,7 @@
 --h1-font-size: 2.25rem;
 --h2-font-size: 1.5rem;
 --h3-font-size: 1.25rem;
---normal-font-size: 1rem;
+--normal-font-size: 2rem;
 --small-font-size: 0.875rem;
 --smaller-font-size: 0.813rem;
 --tiny-font-size: 0.625rem;
@@ -93,14 +94,17 @@ button,
 input,
 textarea{
   font-family: var(--body-font);
-  font-size: var(--normal-font-size);
+  font-size: var(--h2-font-size);
+  /* font-weight: 400;
+  line-height: 1.75; */
+  
 }
 body{
-  background-color: var(--body-color);
-  color: var(--text-color);
+  /* background-color:#000; */
+  background-color: rgb(39, 56, 57);
 }
 
-h1,h2,h3{
+h1,h2{
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
@@ -129,12 +133,12 @@ img{
   padding: 6rem 0 2rem;
 }
 
-.section__title{
+/* .section__title{
   font-size: var(--h1-font-size);
   color: var(--title-color);
-}
+}  */
 
-.section__subtitle{
+ .section__subtitle{
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
@@ -154,11 +158,15 @@ img{
   max-width: 968px;
   margin-left: auto;
   margin-right:auto ;
+
+
+
 }
 
 .grid{
   display: grid;
   gap: 1.5rem;
+ 
 }
 
 /** ======================== BUTTONS ============================*/
@@ -166,19 +174,21 @@ img{
 .button{
   display: inline-block;
   background-color: var(--title-color);
-  color: var(--container-color);
-  padding: 1.25rem 2rem;
+ 
+ padding: 0.75rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  color: rgb(24, 79, 55);
 
 }
 
 .button:hover{
-  background-color: var(--title-color-dark);
+  color: rgb(16, 59, 32);
 }
 
 .button__icon{
   margin-left: var(--mb-0-5);
+   /* color: rgb(16, 59, 32); */
 }
 
 .button--flex{
@@ -191,16 +201,58 @@ img{
 
 /* For large devices*/
 @media screen  and (max-width:992px) {
+
+  
+   section{
+    /* margin-left: 6rem; */
+     /* padding-right: 10px;
+    padding-left: 70px;  */
+    margin-right: 4rem;
+ 
+  } 
   .container{
-    margin-left: var(--mb-1-5);
+
+    margin-left:var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }
+    .button {
+   
+      margin-bottom: var(--mb-3);
+    }
+  
+    .button__icon {
+      width: 22px;
+      height: 22px;
+    }
 }
 
 /* For medium devices*/
 @media screen and (max-width:768px) {
+  /* .about{
+    margin-left: 3rem;
+  }
 
+        .button {
+         padding: 1rem;
+         width: 300px;
+         height: 8vh;
+          margin-bottom: var(--mb-3);
+          
+        } */
+
+        .section{
+          padding: 2rem 0 4rem;
+          
+        }
+
+ .section__subtitle {
+  margin-bottom: var(--mb-3);
+  /* margin-left: 4rem; */
+/* color: var(--title-color);
+font-size: var(--h2-font-size);
+font-weight: var(--font-semi-bold); */
 }
+} 
 
 /* For large devices*/
 
@@ -210,9 +262,15 @@ img{
 
 /* For small devices*/
 @media screen and (max-width:350px) {
+
+  :root{
+    --big-font-size:2.25rem;
+   
+  }
   .container {
       margin-left: var(--mb-1);
       margin-right: var(--mb-1);
+      
     }
 }
 
@@ -266,3 +324,5 @@ img{
     transform: rotate(360deg);
   }
 } */
+
+

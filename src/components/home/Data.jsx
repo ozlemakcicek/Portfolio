@@ -3,7 +3,8 @@ import React from 'react'
 const Data = () => {
   return (
     <div className="home__data">
-      <h1 className="home__title">
+    
+      <h1 className="home__title" data-testid='logo' aria-label='Return to main page'>
         Ozlem Akcicek
         <svg
           width="36"
@@ -55,12 +56,15 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Visual Designer</h3>
-      <p className="home__description">
-        I'm a web designer and front-end developer
+    
+      <h3 className="home__subtitle">Developer </h3>
+    
+   
+        <p className="home__description">
+         <span className='title'> I'm </span>a Web Designer  <span className='title'> and</span> Frontend Developer
       </p>
 
-      <a href="#contact" className="button button--flex">
+      {/* <a href="#contact" className="button button--flex">
         Say Hello
         <svg
           class="button__icon"
@@ -79,7 +83,7 @@ const Data = () => {
             fill="var(--container-color)"
           ></path>
         </svg>
-      </a>
+      </a> */}
     </div>
   );
 }
