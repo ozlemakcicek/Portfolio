@@ -210,14 +210,11 @@ img{
     margin-right: 4rem;
  
   } 
-  .container{
-
-    margin-left:var(--mb-1-5);
-    margin-right: var(--mb-1-5);
-  }
+ 
     .button {
    
       margin-bottom: var(--mb-3);
+      
     }
   
     .button__icon {
@@ -228,17 +225,7 @@ img{
 
 /* For medium devices*/
 @media screen and (max-width:768px) {
-  /* .about{
-    margin-left: 3rem;
-  }
 
-        .button {
-         padding: 1rem;
-         width: 300px;
-         height: 8vh;
-          margin-bottom: var(--mb-3);
-          
-        } */
 
         .section{
           padding: 2rem 0 4rem;
@@ -258,6 +245,10 @@ font-weight: var(--font-semi-bold); */
 
 @media screen and (max-width:576px) {
 
+  .section__title {
+      font-size: var(--h3-font-size);
+  
+    }
 }
 
 /* For small devices*/
@@ -272,6 +263,23 @@ font-weight: var(--font-semi-bold); */
       margin-right: var(--mb-1);
       
     }
+
+.section__title{
+  font-size: var(--h3-font-size);
+ 
+}
+
+.section__subtitle{
+ 
+  margin-right: -4rem;
+}
+
+ .button {
+    padding: 1px ;
+    margin-left: 2rem;
+
+ } 
+
 }
 
 

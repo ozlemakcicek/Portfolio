@@ -5,51 +5,126 @@
 }
 
 
-.section{
-   grid-template-columns: repeat(3,1fr);
-    gap: 2.5rem;
+.skills__container{
+   grid-template-columns: repeat(4,350px);
+
+  
+   /* display: flex; */
+    column-gap: 2.5rem;
+    justify-content: center;
         color: rgb(225, 225, 225);
             margin-bottom: 2rem;
 }
-.cizgi{
-        display: flex;
-            -webkit-box-pack: justify;
-            justify-content: space-between;
-            position: relative;
-            overflow: hidden;
-            height: 60px;
-            color: rgb(255, 255, 255);
-}
-.Sspan{
-        color: rgb(41, 120, 160)
-}
 
-@media screen and (max-width:1150px){
-    .statue{
-        right: -350px;
-        transform: scale(0.7);
-    }
-    
-}
 
-.statue{
-    display: block;
-    z-index: 3;
-    width: 400px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 100%;
-    position: absolute;
-    float: right;
-    background-image:url(/src/assets/business-3639451_1280.jpg) ;
-        overflow: visible !important;
-}
+
+
+
+
 
 .tablo{
-    display: grid;
-    gap: 2.5rem;
-    align-items: flex-start;
+    /* display: grid;
+     gap: 2.5rem;
+    align-items: flex-start; */
+    border: 1px solid white;
+    /* width: 25rem; */
+    text-align: center;
+   
+    
+
 }
-.langtbl{
+
+.title__box{
+    border: 1px solid white;
+    height: 5vh;
+    
+    
+} 
+h5,ul{
+   margin-top: 0.75rem;
+}
+
+
+
+/** ======================== BREAKPOINTS ============================*/
+
+ @media screen and (max-width:1350px) {
+    .skills__container {
+            grid-template-columns: repeat(2, 350px);
+    
+    
+            /* display: flex; */
+            column-gap: 2.5rem;
+            justify-content: center;
+            color: rgb(225, 225, 225);
+            margin-bottom: 2rem;
+        }
+ }
+
+
+/* For large devices*/
+@media screen and (max-width:992px) {
+
+
+.skills__container {
+        grid-template-columns: repeat(2, 230px);
+
+        /* display: flex; */
+        column-gap: 2.5rem;
+        justify-content: center;
         color: rgb(225, 225, 225);
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+    }
+ 
+
+
+
+
+}
+
+/* For medium devices*/
+@media screen and (max-width:768px) {
+ 
+
+    .skills__container {
+            grid-template-columns: repeat(2, 230px);
+    
+            /* display: flex; */
+            column-gap: 2.5rem;
+            justify-content: center;
+            color: rgb(225, 225, 225);
+            margin-bottom: 2rem;  
+            margin-left: 3rem;
+        }
+
+
+
+    
+}
+/* For large devices*/
+
+@media screen and (max-width:576px) {
+    .skills__container {
+    grid-template-columns: 1fr;
+ 
+    row-gap: 2.5rem;
+    margin-left: 3rem;
+   
+}}
+
+/* For small devices*/
+@media screen and (max-width:350px) {
+    .skills__container {
+            grid-template-columns: 1fr;
+          
+            row-gap: 2.5rem;
+            
+    
+        }
+
+.title__box{
+    height: 8vh;
+}
+    
 }

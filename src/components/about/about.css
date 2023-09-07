@@ -52,6 +52,8 @@ margin-top: 3rem;
 }
 
 
+
+
 .button{
     margin: 2rem 0px;
         
@@ -67,13 +69,14 @@ margin-top: 3rem;
 }
 
 .about__container {
-    /* margin-left: 10rem;
-    margin-top: 3rem; */
+   
 
     grid-template-columns: repeat(2,1fr);
     /* 2 tane 1 fragment olcusunde esit bol colon lari demek */
     align-items: center;
     column-gap: 4rem;
+    /* margin-left: var(--mb-3); */
+    /* margin-right: var(--mb-1-5); */
 }
 
 .about__info{
@@ -109,25 +112,79 @@ margin-top: 3rem;
 
 
 
+
+.yazi__container {
+    grid-template-columns: repeat(3,1fr);
+    
+
+
+     /* display: flex; 
+     column-gap: 2.5rem;  */
+    justify-items: center;
+    color: rgb(225, 225, 225);
+    /* margin-bottom: 6rem;
+        min-height: 10vh;
+        position: relative; */
+        
+}
+.yazi{
+     
+            grid-column: 3 / 3;
+                text-align: center;
+                justify-items: center;
+                margin-bottom: 6rem;
+                width: 50rem;
+}
+
+.yazii{
+    border: 2px solid rgb(201, 152, 16);
+   
+      
+        padding: 2rem;
+        min-width: 352px;
+        width: 70%;
+        color: rgb(225,225,225); 
+        position: relative;
+        margin-top: 6rem;
+        box-shadow:15px 15px 10px 0 rgba(0, 0, 0, 0.5)
+}
+
+
+
+.double{
+    background-color: rgb(39, 56, 57);
+        top: 0%;
+            left: 10%;
+            position: absolute;
+            width: 20px;
+            height: 10px;
+            transform: translateY(-50%);
+            box-sizing: content-box;
+            padding: 1rem;
+            z-index: 2;
+            
+}
+
+.double2{
+    background-color: rgb(39,
+        56,
+        57);
+    top: 100%;
+    left: 83%;
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    transform: translateY(-50%);
+    box-sizing: content-box;
+    padding: 1rem;
+    z-index: 2;
+}
+
+
 /* *********************** */
 
 @media  screen and (max-width:992px) {
-/* .Ttitle {
-        display: flex;
-        -webkit-box-pack: justify;
-        justify-content: space-between;
-        position: relative;
-        overflow: hidden;
-        height: 60px;
-        color: rgb(255, 255, 255);
-        align-items: center;
-        margin-left: 6rem;
-    }
 
- .about__container {
-     margin-left: 10rem;
-     margin-top: 3rem;
- } */
 
  .about__container{
     grid-template-columns: 1fr;
@@ -155,58 +212,67 @@ margin-top: 3rem;
     padding: 0 5rem;
     margin-bottom: 2rem;
  }
+
+         .yazi {
+             grid-template-columns: 1fr;
+             width: 50rem;
+             margin-left: 7rem;
+             text-align: center;
+             justify-items: center;
+             margin-bottom: 6rem;
+    
+         }
+
 }
 
 @media screen and (max-width:768px) {
     
-/* .Ttitle {
-    
-            display: flex;
-            -webkit-box-pack: justify;
-            justify-content: space-between;
-            position: relative;
-            overflow: hidden;
-            height: 60px;
-            color: rgb(255, 255, 255);
-            align-items: center;
-      
-       
-    
-        }
-       .about__container{
-    margin-left: 3rem;
-       }          */
+
        .about__img{
         margin-top: 2rem;
        }
+
+         .yazi {
+             grid-template-columns: 1fr;
+           
+             margin-left: auto;
+             text-align: center;
+             justify-items: center;
+             margin-bottom: 6rem;
+             
+    
+         }
 }
 
 
 @media screen and (max-width:576px) {
-    /* .Ttitle {
-            display: flex;
-            -webkit-box-pack: justify;
-            justify-content: space-between;
-            position: relative;
-            overflow: hidden;
-            height: 60px;
-            color: rgb(255, 255, 255);
-            align-items: center;
-            margin-left: 2rem;
-    
-        } */
+  
         .about__info{
             grid-template-columns: repeat(3,1fr);
+            margin-left: 3rem;
         }
 
         .about__description{
             padding: 0;
+            margin-left: 3rem;
         }
+
+      .yazi {
+    grid-template-columns: repeat(3,1fr);
+           width: 35rem;
+            text-align: center;
+            justify-items: center;
+            margin-bottom: 6rem;
+            
+        }
+                
     }
 
 @media screen and (max-width:350px) {
 
     .about__info{
         grid-template-columns: repeat(2,1fr);
+        margin-left: 3rem;
+        
     }
 }

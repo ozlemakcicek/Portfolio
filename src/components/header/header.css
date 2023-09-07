@@ -51,7 +51,8 @@ font-weight: var(--font-medium);
 
 .active-link,
 .nav__link:hover{
-color: var(--title-color-dark);
+color: rgba(174, 18, 133, 0.854);;
+
 }
 
 /** ======================== BREAKPOINTS ============================*/
@@ -72,10 +73,11 @@ color: var(--title-color-dark);
        position: fixed;
        bottom: -100%;
        left: 0;
+       
        width: 100%;
        background-color: var(--body-color);
        padding: 2rem 1.5rem 4rem;
-       box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
+       box-shadow: 0 -1px 4px rgba(54, 49, 49, 0.15);
        border-radius: 1.5rem 1.5rem 0 0;
        transition: .3s;
 
@@ -99,16 +101,19 @@ color: var(--title-color-dark);
 
 .nav__close{
     position: absolute;
-        bottom: 1.3rem;
-        left: .5rem;
+        right: 1.3rem;
+        bottom: .5rem;
+      
         font-size: 1.5rem;
         cursor: pointer;
         color: var(--title-color);
+        
 }
 
 
 .nav__close:hover{
     color: var(--title-color-dark);
+    
 }
 
 .nav__toggle{

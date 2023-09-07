@@ -7,9 +7,28 @@ import Info from "./Info";
 export default function About() {
   return (
     <section className="about section" id="about">
+      <div className="yazi__container container grid">
+        <div className="yazi">
+          <div className="yazii">
+            <div className=" yazi__box">
+              <div className="double">
+                <p>**</p>
+              </div>
+              <h5>
+                "Die grundlegenden Bedingungen für Glück sind etwas zu tun zu
+                haben, etwas zu lieben zu haben und auf etwas zu hoffen."
+              </h5>
+
+              <div className="double2">
+                <p>**</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="sc-ab Ttitle">
         <h3>
-          <span className="section__title">#</span>about-me 
+          <span className="section__title">#</span>about-me
           <span className="section__title"> -----------------</span>
         </h3>
       </div>
@@ -17,22 +36,23 @@ export default function About() {
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
         <div className="about__data">
-         
-          <h5>Hallo ich bin Özlem,</h5>
+          <h5>Hi! ich bin Özlem,</h5>
+          
           <br />
 
           <p className="about__description">
             Ich bin ein Frontend- und Backend-Entwickler mit einer Leidenschaft
-            für die Erstellung beeindruckender digitaler Lösungen. 
-             <br /> Im
-            Frontend-Bereich setze ich moderne Technologien wie HTML, CSS und
-            JavaScript ein, um ansprechende Benutzeroberflächen zu gestalten.
+            für die Erstellung beeindruckender digitaler Lösungen.
+            <br /> Im Frontend-Bereich setze ich moderne Technologien wie HTML,
+            CSS und JavaScript ein, um ansprechende Benutzeroberflächen zu
+            gestalten.
             <br />
             Mit Frameworks wie React bringe ich Interaktivität und reibungslose
             Benutzererlebnisse in meine Projekte ein.
-          </p> 
-      <span className="section__subtitle">My Introduction</span>
-<Info />
+          </p>
+          
+          <span className="section__subtitle">My Introduction</span>
+          <Info />
           <a download="" href={CV} className="button button--flex">
             Herunterladen CV
             <svg
@@ -61,8 +81,9 @@ export default function About() {
               ></path>
             </svg>
           </a>
+          </div>
         </div>
-      </div>
+      
     </section>
   );
 }
