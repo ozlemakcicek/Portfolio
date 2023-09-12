@@ -3,6 +3,7 @@ import "./home.css";
 import Social from "./Social";
 import Data from "./Data";
 import ScrollDown from "./ScrollDown";
+import myPunkt from "../../assets/Download.png"
 
 const Home = () => {
   return (
@@ -17,8 +18,10 @@ const Home = () => {
          
         </div>
         
+      
        
-      </div>
+      </div> 
+     
  <ScrollDown />
 
 

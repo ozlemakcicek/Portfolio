@@ -29,7 +29,7 @@ export default function About() {
       <div className="sc-ab Ttitle">
         <h3>
           <span className="section__title">#</span>about-me
-          <span className="section__title"> -----------------</span>
+          <span className="section__title">-----------------</span>
         </h3>
       </div>
 

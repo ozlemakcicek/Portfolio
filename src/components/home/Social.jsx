@@ -11,7 +11,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-instagram-alt"></i>
+        <i className="uil uil-instagram-alt"></i>
       </a>
 
       <a
@@ -20,7 +20,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-linkedin-alt"></i>
+        <i className="uil uil-linkedin-alt"></i>
       </a>
       <a
         href="https://github.com/ozlemakcicek"
@@ -28,7 +28,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-github"></i>
+        <i className="uil uil-github"></i>
       </a>
       {/* <a
         href="https://www.xing.com/profile/ozlem_akcicek/cv"

@@ -212,7 +212,7 @@ img{
   } 
  
     .button {
-   
+  /* padding: 1rem 1.75rem; */
       margin-bottom: var(--mb-3);
       
     }

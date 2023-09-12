@@ -23,9 +23,7 @@
 
 
 .tablo{
-    /* display: grid;
-     gap: 2.5rem;
-    align-items: flex-start; */
+    
     border: 1px solid white;
     /* width: 25rem; */
     text-align: center;
@@ -98,7 +96,11 @@ h5,ul{
             margin-left: 3rem;
         }
 
-
+h3{
+    
+    margin-top: 2rem;
+     
+}
 
     
 }

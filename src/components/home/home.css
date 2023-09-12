@@ -11,12 +11,25 @@
     
 }
    .home__data {
-      
+     
        padding-top: 1rem;
        margin-bottom: 6rem;
-
+animation:data__animate 2s ease-in-out 0s 1 normal none running;
    }
+@keyframes data__animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
 
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+}
 
 .home__social{
     display: grid;
@@ -102,10 +115,6 @@
 }
 
 
-.title{
-/* color: rgb(237, 241, 230); */
-color: rgb(225, 225, 225);
-}
 
 .home__description{
 max-width: 400px;
@@ -113,8 +122,18 @@ margin-bottom: var(--mb-3);
 color: rgb(193,219,179);
 font-size: 60px;
 margin-top: 4rem;
+
 }
 
+.desc{
+    text-decoration: underline;
+}
+
+.title{
+/* color: rgb(237, 241, 230); */
+color: rgb(225, 225, 225);
+
+}
 .home__img{
 background:url(../../assets/WhatsApp\ Image\ 2023-09-02\ at\ 23.46.22\ \(1\).jpeg) ;
 background-repeat: no-repeat;
@@ -159,6 +178,7 @@ column-gap: 4rem;
    justify-content: center;
    align-items: center;
    margin-top: 1rem;
+  
 
 }
 
@@ -213,6 +233,7 @@ wheel{
         }
        
           .home__title {
+        margin-left: 1.5rem;
         font-size: 40px
     
           }
