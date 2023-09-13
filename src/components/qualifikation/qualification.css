@@ -1,33 +1,34 @@
 .qualification__container{
-   /* max-width: 768px; */
-   max-width: 1000px;
+   max-width: 818px;
+   /* max-width: 1000px; */
 }
 
-.section__title{
-    margin-bottom: -2rem;
-    font-size: 2.5rem;
-}
+
+
 
 
 .qualification__tabs{
     display: flex;
     justify-content: center;
     margin-bottom: var(--mb-2);
-    margin-top: var(--mb-3);
+    /* margin-top: var(--mb-3); */
 }
 
 .qualification__button{
-    font-size: var(--h3);
-    font-weight: var(--medium);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
     color: var(--title-color);
-    margin: 0 var(--mb-1);
+    margin: 0.2px;
     cursor: pointer;
-    
+    padding: 0.1rem 0.5rem;
+        border-radius: 0.7rem;
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
 
 }
 
 .qualification__button:hover{
-    color: rgb(84, 203, 84)
+    color: rgb(84, 203, 84);
+    transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
     
 };
 
@@ -44,15 +45,14 @@
 .qualification__sections{
     display: grid;
     grid-template-columns:1fr;
+    /* grid-template-columns: 0.5fr; */
     justify-content: center;
    
 
 
 }
 
-.mytitle{
-    margin-left: 6rem;
-}
+
 
 .qualification__content{
     display: none;
@@ -63,18 +63,19 @@
 }
 .qualification__data{
     display: grid;
-    grid-template-columns: 1fr max-content 1fr;
+    grid-template-columns: 2fr max-content 2fr;
    
-    column-gap: 1rem; 
+    /* column-gap: 1rem;  */
+    column-gap: 1.5rem;
 }
 
 .qualification__title{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    color: rgb(192, 103, 19);
+    color: rgb(192, 117, 19);
 }
 
-.qualification__subtitle{
+.qualification__subtitle, .qualification__link{
 display:inline-block ;
 font-size: var(--small-font-size);
 margin-bottom: var(--mb-1);
@@ -100,53 +101,120 @@ margin-bottom: var(--mb-1);
 
 }
 
+a>i{
+    color: rgb(0, 255, 195);
+}
+ a > i:hover {
+    font-size: 1.1rem;
+    transition: 0.4s;
+    
+}
 
+.bxs-hand-right{
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    color: rgb(27, 202, 103);
+
+
+}
+
+.qualification__link {
+    display: flex;
+    align-items: center;
+}
+
+.qualification__link:hover .work__button-icon {
+    transform: translateX(0.6rem);
+}
 
 
 @media screen and (max-width:992px){
-    .qualification__sections {
+   .qualification__sections {
            
-            margin-left: 15rem;
+          
+           
     display: grid;
         grid-template-columns: 1fr;
         justify-content: center;
+       
     
         }
+        .qualification__data{
+            margin-left: 3rem;
+            
+        }
 
-                .section__title,
+               /*   .section__title,
                 .section__subtitle,
                 .qualification__tabs {
                     margin-left: 15rem;
-                }
+                } */
 
+                .qualification__container{
+                    margin-left: auto;
+                    margin-right: auto;
+                }
 }
 
 
 
 @media screen and (max-width: 768px){
 
-.qualification__sections {
+
+.qualification__data {
+    display: grid;
+    grid-template-columns: 3fr max-content 1.9fr;
+
     
-        margin-left: 7rem;
+    margin-left: 5px;
+}
+  
 
-
-    }
-.mytitle {
-    margin-left: 0.5rem;
+.section__title{
+    font-size: var(--h2-font-size);
+    margin-left: 8rem;
+    margin-bottom: -2rem;
 }
 
-.section__title,
-
-.qualification__tabs{
-   margin-left: 9rem;
-
-}
     .section__subtitle{
-        width: 50%;
-        margin-left:12rem;
-    }    
+       margin-right: -7.8rem;
+      /* margin-left: 8.8rem; */
+      font-size: var(--h3-font-size);
+    }  
+
+   .qualification__container {
+       margin-left: var(--mb-3);
+       margin-right: var(--mb-1-5);
+   }
+
+   .qualification__tabs{
+    margin-left: 3rem;
+   }
 }
 
 @media screen and (max-widt:576px){
-  
+.qualification__sections {
+        grid-template-columns: initial;
+    }
+
+    .qualification__button {
+        margin: 0 var(--mb-0-75);
+    }
+
+        
+}
+
+@media screen and (max-width: 350px) {
+    .qualification__data {
+        gap: 0.5rem;
+    }
+
+    .qualification__tabs {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .qualification__button {
+        justify-content: center;
+    }
 }

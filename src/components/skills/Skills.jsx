@@ -9,7 +9,7 @@ export default function Skills() {
       <div className="sc-ab Ttitle">
         <h3>
           <span className="section__title">#</span>skills
-          <span className="section__title"> ------------------</span>
+          <span className="section__title">------------------</span>
         </h3>
       </div>
 

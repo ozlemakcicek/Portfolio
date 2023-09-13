@@ -14,10 +14,19 @@
     justify-content: center;
         color: rgb(225, 225, 225);
             margin-bottom: 2rem;
+            
 }
 
 
-
+.Ttitle{
+        display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+            height: 60px;
+            color: rgb(255, 255, 255);
+}
 
 
 
@@ -56,6 +65,7 @@ h5,ul{
             justify-content: center;
             color: rgb(225, 225, 225);
             margin-bottom: 2rem;
+            
         }
  }
 
@@ -94,12 +104,24 @@ h5,ul{
             color: rgb(225, 225, 225);
             margin-bottom: 2rem;  
             margin-left: 3rem;
+
+
+            
         }
+
+        
 
 h3{
     
     margin-top: 2rem;
-     
+    
+      
+}
+
+
+.Ttitle{
+    margin: auto;
+  
 }
 
     
@@ -130,3 +152,5 @@ h3{
 }
     
 }
+
+

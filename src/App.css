@@ -89,6 +89,12 @@ html{
   scroll-behavior: smooth;
 }
 
+
+.container{
+  width: 100%;
+  
+}
+
 body,
 button,
 input,
