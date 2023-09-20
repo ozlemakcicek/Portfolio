@@ -5,7 +5,8 @@ const Data = () => {
     <div className="home__data">
     
       <h1 className="home__title" data-testid='logo' aria-label='Return to main page'>
-        Ozlem Akcicek
+        
+        Özlem Akcicek
         <svg
           width="36"
           height="36"
