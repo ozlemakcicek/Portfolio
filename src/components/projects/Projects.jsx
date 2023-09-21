@@ -4,7 +4,7 @@ import "./projects.css"
 export default function Projects() {
   return (
     <div className="projects">
-      <section className="global">
+      <section className="global" id="projects">
         <div className="betreff">
           <h3>
             <span className="section__title">#</span>projects
@@ -26,7 +26,10 @@ export default function Projects() {
                 {/* <p>Stock Tracker App </p> */}
                 <div className="butt">
                   <button>
-                    <a href="https://github.com/ozlemakcicek/StockApp" target='blank'>
+                    <a
+                      href="https://github.com/ozlemakcicek/StockApp"
+                      target="blank"
+                    >
                       GitHub
                     </a>
                   </button>
@@ -50,7 +53,10 @@ export default function Projects() {
                 {/* <p>Blog App </p> */}
                 <div className="butt">
                   <button>
-                    <a href="https://github.com/ozlemakcicek/myBlogApp" target='blank'>
+                    <a
+                      href="https://github.com/ozlemakcicek/myBlogApp"
+                      target="blank"
+                    >
                       GitHub
                     </a>
                   </button>
@@ -74,7 +80,10 @@ export default function Projects() {
                 {/* <p>Movie App </p> */}
                 <div className="butt">
                   <button>
-                    <a href="https://github.com/ozlemakcicek/MyMovieApp" target='blank'>
+                    <a
+                      href="https://github.com/ozlemakcicek/MyMovieApp"
+                      target="blank"
+                    >
                       GitHub
                     </a>
                   </button>
