@@ -10,7 +10,7 @@ const Contact = () => {
           <span className="section__title">------------------</span>
         </h3>
       </div>
-
+<div className='contact'>
       <div className="schrift">
         <h5>I am interested in front-end positions, 
         Allthough, you can always reach out to me.</h5>
@@ -30,6 +30,7 @@ const Contact = () => {
           <i class="bx bxs-mobile"></i>
           017684950573
         </span>
+      </div>
       </div>
     </section>
   );

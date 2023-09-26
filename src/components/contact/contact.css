@@ -21,13 +21,15 @@
             height: 60px;
     }
 
-
+.contact{
+    display: flex;
+}
 
 .msg__box{
     border: 1px solid white;
     position: absolute;
         width: 450px;
-          top: 10rem;
+          /* top: 10rem; */
             right: -1rem;
             padding:0.5rem 1rem;
 }
@@ -75,13 +77,29 @@ color: white;}
 
 .contact__section{
     margin-top: -3rem;
+    
 }
-  
+ 
+
+.Ttitle{
+    margin-left: 5rem;
+    margin-top: 10rem;
+   
+}
+
+.schrift,
+.msg__box {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 5rem;
+    margin-top: 2rem;
+
+}
 .msg__box {
        
         width: 90%;
-        top: 10rem;
-    left: 2rem;
+        top: 12rem;
+    left: 0.1rem;
         padding: 0.5rem 1rem;
        
     }
@@ -110,7 +128,14 @@ color: white;}
 /* For medium devices*/
 @media screen and (max-width:768px) {
 
+.schrift,
+.msg__box{
+display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 3rem;
+    margin-top: 2rem;
 
+}
   
 
 

@@ -96,7 +96,9 @@ export default function Qualification() {
 
             <div className="qualification__data">
               <div className="mytitle">
-                <h3 className="qualification__title">NaturWissenschaften Master </h3>
+                <h3 className="qualification__title">
+                  NaturWissenschaften Master{" "}
+                </h3>
 
                 <span className="qualification__subtitle">
                   Istanbul-Istanbul Universität
@@ -261,10 +263,10 @@ export default function Qualification() {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">HTML&CSS</h3>
+                <h3 className="qualification__title">Backend Developer</h3>
                 <a
                   className="qualification__link"
-                  href="https://c11n.clarusway.com/en/verify/09493462743764?ref=email"
+                  href="https://c11n.clarusway.com/en/verify/03705032938160?ref=email"
                   target="blank"
                 >
                   <div>
@@ -277,6 +279,31 @@ export default function Qualification() {
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>2023
                 </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">FullStack Developer</h3>
+                <a
+                  className="qualification__link"
+                  href="https://c11n.clarusway.com/en/verify/14835178697401?ref=email"
+                  target="blank"
+                >
+                  <div>
+                    <i class="bx bxs-hand-right"></i>
+                  </div>
+                  <i class="bx bx-star"></i>
+                  <i class="bx bx-star"></i>
+                  <i class="bx bx-star"></i>
+                </a>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>2023
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
           </div>

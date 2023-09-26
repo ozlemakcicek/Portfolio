@@ -8,7 +8,7 @@ export default function Projects() {
         <div className="betreff">
           <h3>
             <span className="section__title">#</span>projects
-            <span className="section__title">-------------------</span>
+            <span className="section__title">---------------------</span>
           </h3>
         </div>
         <div className="ort">
