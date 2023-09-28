@@ -77,9 +77,11 @@ color: white;}
 
 .contact__section{
     margin-top: -3rem;
+grid-template-columns: 1fr;
     
 }
  
+
 
 .Ttitle{
     margin-left: 5rem;
@@ -87,22 +89,15 @@ color: white;}
    
 }
 
-.schrift,
-.msg__box {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-left: 5rem;
-    margin-top: 2rem;
-
+.schrift h5{
+    margin-left:5rem;
 }
+
 .msg__box {
-       
-        width: 90%;
-        top: 12rem;
-    left: 0.1rem;
-        padding: 0.5rem 1rem;
-       
-    }
+    margin-right: 6rem;
+    width: 80%;
+    margin-top: 9rem;
+}
 
 .mail {
    
@@ -123,26 +118,79 @@ color: white;}
 .bxs-mobile {
     font-size: 1rem;
 }
+
+ 
+
+
 }
 
 /* For medium devices*/
 @media screen and (max-width:768px) {
 
-.schrift,
-.msg__box{
-display: grid;
+
+  .contact__section {
+    
     grid-template-columns: 1fr;
-    margin-left: 3rem;
-    margin-top: 2rem;
+   
+
+  }
+
+                        .schrift {
+            
+                            margin-left: 7rem;
+            
+                        }
+            
+                        .msg__box {
+                            margin-right: 3rem;
+                            width: 80%;
+                            margin-top: -1rem;
+                        }
+
+.Ttitle {
+  margin-left: 1.3rem;
 
 }
-  
-
-
 }
 
 /* For large devices*/
 
 @media screen and (max-width:576px) {
-   
+
+
+          .contact__section {
+    
+              grid-template-columns: 1fr;
+    
+    
+          }
+    
+          
+
+          .schrift
+{
+
+    margin-left: 0.5rem;
+
+}
+.msg__box{
+    margin-right: 3rem;
+    width: 80%;
+    margin-top: 9rem;
+}
+}
+
+@media screen and (max-width:350px) {
+    .Ttitle {
+            margin-left: 2.7rem;
+    
+        }
+    
+      
+    
+        h5 {
+            font-size: 1rem;
+        }
+    
+      
 }

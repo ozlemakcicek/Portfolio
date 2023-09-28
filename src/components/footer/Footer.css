@@ -91,3 +91,13 @@ hr {color: rgb(128, 121, 121);
     font-size: var(--smaller-font-size);
 }
 
+
+
+
+@media screen and (max-width:576px) {
+
+   hr{
+    width: 90%;
+    margin-left: 1.5rem;
+   }
+}

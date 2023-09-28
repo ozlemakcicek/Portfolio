@@ -29,7 +29,7 @@ export default function About() {
       <div className="sc-ab Ttitle">
         <h3>
           <span className="section__title">#</span>about-me
-          <span className="section__title">-----------------</span>
+          <span className="section__title">------------------</span>
         </h3>
       </div>
 
@@ -37,7 +37,7 @@ export default function About() {
         <img src={AboutImg} alt="" className="about__img" />
         <div className="about__data">
           <h5>Hi! ich bin Özlem,</h5>
-          
+
           <br />
 
           <p className="about__description">
@@ -50,7 +50,7 @@ export default function About() {
             Mit Frameworks wie React bringe ich Interaktivität und reibungslose
             Benutzererlebnisse in meine Projekte ein.
           </p>
-          
+
           <span className="section__subtitle">My Introduction</span>
           <Info />
           <a download="" href={CV} className="button button--flex">
@@ -81,9 +81,8 @@ export default function About() {
               ></path>
             </svg>
           </a>
-          </div>
         </div>
-      
+      </div>
     </section>
   );
 }

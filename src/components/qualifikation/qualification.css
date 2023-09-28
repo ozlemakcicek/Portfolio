@@ -5,7 +5,18 @@
 
 
 
-
+.section__title1
+{
+    text-align: center;
+    color: rgb(34, 222, 65);
+}
+.section__subtitle1 {
+    display: block;
+    font-size: var(--medium-font-size);
+    margin-bottom: 4rem;
+    color: rgba(35, 243, 191, 0.854);
+    text-align: center;
+}
 
 .qualification__tabs{
     display: flex;

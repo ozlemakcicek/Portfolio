@@ -3,8 +3,6 @@ import "./Skills.css";
 
 export default function Skills() {
   return (
-    
-
     <section className="skills section" id="skills">
       <div className="sc-ab Ttitle">
         <h3>
@@ -16,7 +14,6 @@ export default function Skills() {
       <span className="section__subtitle">My Technical Level</span>
 
       <div className="skills__container container grid">
-       
         <div className="tablo">
           <div className="tbl">
             <div className=" title__box">
@@ -80,7 +77,7 @@ export default function Skills() {
               <ul>
                 <li>React</li>
                 <li>Django</li>
-              </ul> 
+              </ul>
             </div>
           </div>
         </div>
