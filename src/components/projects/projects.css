@@ -7,7 +7,7 @@
 .global{
         
         /* display: flex;  */
-            gap: 2.5rem; 
+            /* gap: 2.5rem;  */
            
             margin-bottom: 3rem;
             transition: all 1s ease-in-out 0s;
@@ -17,33 +17,21 @@
 }
 .ort{
     display: grid;
-        grid-template-columns: repeat(3,350px);
-        column-gap: 1.5rem;
-      
+        grid-template-columns: repeat(3,400px);
+        column-gap: 0.5rem;
+     
        justify-content: center;
-       margin: auto
+       margin-top: 3rem
        
      
 }
 
-.betreff{
-        display: flex;
-            -webkit-box-pack: justify;
-            justify-content: space-between;
-            position: relative;
-            overflow: hidden;
-            height: 80px;
-            color: rgb(255, 255, 255);
-            margin-left: 6rem;
-            margin-bottom: 5rem;
-}
 
 .alan{
     display: flex;
         overflow: auto;
-        gap: 0.5rem;
-         margin: auto;
-        
+        /* gap: 1rem; */
+       
         /* margin-top: 5rem; */
 }
 
@@ -133,36 +121,39 @@ a{
 
 @media screen and (max-width:1480px) {
     .ort{
-        display: grid;
+        
+           width: 90%;
+          column-gap: 0.3rem;
            
-            column-gap: 0.8rem;
-           
-           
+           margin-left: 8rem;
           
     }
+       
 }
 
 @media screen and (max-width:992px){
 .ort {
         display: grid;
         grid-template-columns: 1fr;
+       
         
-margin-left: auto;
+margin-left: 12rem;
 
         
     }
     
-    .betreff {
    
-        margin-bottom: 5rem;
-
-    }
     .punkt{
         display: flex;
         gap: 1.5rem;
         flex-wrap: wrap;
     }
 
+    .alan{
+
+        width: 100%;
+    margin: 1rem 2rem;
+    }
         .alan1 {
           
             min-height: 450px;
@@ -172,19 +163,20 @@ margin-left: auto;
         }
 }
 
+
 @media screen and (max-width:768px){
 .ort {
         display: grid;
         grid-template-columns: 1fr;
 
-        margin-left: 3rem;
+     margin-left: 2rem;
+      
     }
-    .betreff{
-   margin: auto;
-   margin-bottom: 5rem;
-    
+    .alan{
+        margin:1rem 2rem;
     }
-    
+
+   
 }
 
 @media screen and(max-width:576px) {
@@ -192,7 +184,8 @@ margin-left: auto;
         display: grid;
             grid-template-columns: 1fr;
     
-           
-            margin-left: 3rem;
+            /* margin-left: 3rem; */
         }
+
+        
 }

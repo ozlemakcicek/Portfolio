@@ -139,10 +139,7 @@ img{
   padding: 6rem 0 2rem;
 }
 
-/* .section__title{
-  font-size: var(--h1-font-size);
-  color: var(--title-color);
-}  */
+
 
  .section__subtitle{
   display: block;
@@ -154,9 +151,35 @@ img{
   text-align: center;
 }
 
+.section__title {
+  color: rgb(34, 222, 65);
 
 
+}
 
+.section__subtitle {
+  font-size: var(--h2-font-size);
+
+  color: rgba(35, 243, 191, 0.854);
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+ .Ttitle {
+   display: flex;
+   -webkit-box-pack: justify;
+   justify-content: space-between;
+
+   position: relative;
+   overflow: hidden;
+   height: 60px;
+   color: rgb(255, 255, 255);
+   /* color: rgb(193, 219, 179); */
+   align-items: center;
+   margin-left: -18rem;
+
+
+ }
 /** ======================== LAYOUT ============================*/
 
 .container{
@@ -208,14 +231,14 @@ img{
 @media screen  and (max-width:992px) {
 
   
-   section{
+   /* section{
     /* margin-left: 6rem; */
      /* padding-right: 10px;
     padding-left: 70px;  */
-    margin-right: 4rem;
+    /* margin-right: 4rem; */
  
-  } 
- 
+  /* }  */
+
     .button {
   /* padding: 1rem 1.75rem; */
       margin-bottom: var(--mb-3);
@@ -234,15 +257,12 @@ img{
 
         .section{
           padding: 2rem 0 4rem;
-          
+       
         }
 
  .section__subtitle {
   margin-bottom: var(--mb-3);
-  /* margin-left: 4rem; */
-/* color: var(--title-color);
-font-size: var(--h2-font-size);
-font-weight: var(--font-semi-bold); */
+
 }
 } 
 

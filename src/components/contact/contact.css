@@ -12,14 +12,6 @@
     
     } 
 
-    .Ttitle{
-        display: flex;
-            -webkit-box-pack: justify;
-            justify-content: space-between;
-            position: relative;
-            overflow: hidden;
-            height: 60px;
-    }
 
 .contact{
     display: flex;
@@ -89,14 +81,14 @@ grid-template-columns: 1fr;
    
 }
 
-.schrift h5{
-    margin-left:5rem;
+.schrift{
+    margin-left:6rem;
 }
 
 .msg__box {
     margin-right: 6rem;
     width: 80%;
-    margin-top: 9rem;
+    margin-top: 7rem;
 }
 
 .mail {
@@ -131,21 +123,20 @@ grid-template-columns: 1fr;
   .contact__section {
     
     grid-template-columns: 1fr;
-   
+ 
 
   }
 
-                        .schrift {
+                         .schrift
+                         {
             
-                            margin-left: 7rem;
+                            margin-left: 1rem;
             
                         }
             
-                        .msg__box {
-                            margin-right: 3rem;
-                            width: 80%;
-                            margin-top: -1rem;
-                        }
+     .msg__box{
+        margin-right: 4.5rem;
+     }                   
 
 .Ttitle {
   margin-left: 1.3rem;
@@ -170,7 +161,7 @@ grid-template-columns: 1fr;
           .schrift
 {
 
-    margin-left: 0.5rem;
+    margin-left: 3.5rem;
 
 }
 .msg__box{

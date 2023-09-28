@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div className="projects">
       <section className="global" id="projects">
-        <div className="betreff">
+        <div className="sc-ab Ttitle">
           <h3>
             <span className="section__title">#</span>projects
             <span className="section__title">------------------</span>
