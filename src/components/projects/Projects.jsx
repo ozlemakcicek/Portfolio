@@ -1,5 +1,7 @@
 import React from 'react'
 import "./projects.css"
+import Moree from './Moree';
+
 
 export default function Projects() {
   return (
@@ -94,6 +96,7 @@ export default function Projects() {
           </div>
         </div>
       </section>
+    <Moree/>
     </div>
   );
 }

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec2{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+   column-gap: 2rem;
+   margin-left: -12rem;
+}
+.kiste1,
+.kiste2,
+.kiste3,
+.kiste4{
+    min-width: 350px;
+    height: 30vh;
+    padding: 2rem;
+    
+    margin-bottom: 1.5rem;
+    transition: all 300ms ease 0s;
+    cursor: pointer;
+    overflow: visible !important;
+}
+
+.kiste1{
+   background-image: url(../../assets/Blog1-6bbe9280.gif); 
+}
+.kiste2{
+    background-image: url(../../assets/giphy\ \(1\).gif);
+}
+.kiste3{
+    background-image: url(../../assets/giphy.gif);
+}
+.kiste4{
+    background-image: url(../../assets/Blog4-7dac319f.gif);
+}
+h4{
+ font-size: 1.99rem;
+    font-weight: 700;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(22, 22, 22);
+    line-height: 2.3rem;
+   margin: 1.2rem;
+}
+
+
+.sec2 h4 >a:-webkit-any-link{
+    cursor: pointer;
+   color: rgb(229, 63, 204);
+   text-align: center;
+   
+   
+}
+/** ======================== BREAKPOINTS ============================*/
+
+
+@media screen and (max-width:1400px) {
+    .sec2{
+        overflow: auto;
+    }
+}
+/* For large devices*/
+@media screen and (max-width:992px) {
+
+.sec2 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       column-gap: 0.5rem;
+       
+        margin-left: 3rem;
+    }
+
+   .kiste1,
+   .kiste2,
+   .kiste3,
+   .kiste4{
+    width: 30px;
+   }
+   
+
+    
+}
+
+/* For medium devices*/
+@media screen and (max-width:768px) {
+
+.sec2 {
+       
+        grid-template-columns: 1fr;
+     
+
+       
+    }
+
+    
+   
+}
+
+/* For large devices*/
+
+@media screen and (max-width:576px) {
+
+   .sec2{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+   }
+   .kiste1,
+   .kiste2,
+   .kiste3,
+   .kiste4{
+    height: 25vh;
+   }
+}
+
+/* For small devices*/
+@media screen and (max-width:350px) {
+
+   
+
+ 
+
+}

@@ -12,6 +12,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Work from "./components/work/Work";
+import Blogs from "./components/blogs/Blogs";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <About />
         <Projects/>
         <Skills />
+        <Blogs/>
         <Qualification />
         <Work/>
         {/* <Testimonials/> */}

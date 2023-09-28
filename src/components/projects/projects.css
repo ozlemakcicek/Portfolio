@@ -121,13 +121,19 @@ a{
 
 @media screen and (max-width:1480px) {
     .ort{
-        
-           width: 90%;
-          column-gap: 0.3rem;
+     
+        column-gap: 0.5rem;
+          
+         
            
-           margin-left: 8rem;
+           /* margin-left: 8rem; */
           
     }
+         .alan {
+          grid-template-columns: repeat(3,1fr);
+           width: 400px;
+            gap: 0.5rem;
+         }
        
 }
 
@@ -160,32 +166,34 @@ margin-left: 12rem;
          
            
            
-        }
+        } 
+      
 }
 
 
 @media screen and (max-width:768px){
 .ort {
-        display: grid;
+      
         grid-template-columns: 1fr;
 
      margin-left: 2rem;
       
     }
-    .alan{
-        margin:1rem 2rem;
-    }
-
+   
+.alan{
+    margin-left: 2rem;
+}
    
 }
 
 @media screen and(max-width:576px) {
-    .global {
+    .ort {
         display: grid;
             grid-template-columns: 1fr;
-    
-            /* margin-left: 3rem; */
+    margin-left: 5rem;
+           
         }
-
-        
+.alan{
+    margin: 1rem 2rem;
+}
 }

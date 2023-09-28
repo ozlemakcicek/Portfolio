@@ -53,7 +53,8 @@ export default function About() {
 
           <span className="section__subtitle">My Introduction</span>
           <Info />
-          <a download="" href={CV} className="button button--flex">
+          
+          <a download href={CV} className="button button--flex">
             Herunterladen CV
             <svg
               class="button__icon"

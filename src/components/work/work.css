@@ -29,8 +29,9 @@
 
 
 
-.work__container{
-    grid-template-columns:repeat(3,max-content) ;
+.work__container{ 
+     grid-template-columns:repeat(3,max-content) ;
+  
     gap: 0.5rem;
     justify-content: center;
     margin-top: 3rem;
@@ -46,13 +47,14 @@
     display: flex;
         flex-direction: column;
         align-items: center;
-    
+   
     }
 .work__img{
-    width: 350px;
+        height: 300px;width: 
+    500px;
     border-radius: 1rem;
     margin-bottom: var(--mb-1);
-    height: 29vh;
+ 
     transform: scale(1);
     transition: transform 1s ease-in-out;
     &:hover{
@@ -110,8 +112,8 @@
     }
 
    .work__card {
-       width: 390px;
-       height: 350px;
+       width: 400px;
+       height: 400px;
     
 
    }
