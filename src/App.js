@@ -14,30 +14,28 @@ import ScrollUp from "./components/scrollup/ScrollUp";
 import Work from "./components/work/Work";
 import Blogs from "./components/blogs/Blogs";
 
+
 function App() {
   return (
     <div className="container">
       <Header />
 
       <main className="main">
-
-      
         <Home />
         <About />
-        <Projects/>
+        <Projects />
+
         <Skills />
-        <Blogs/>
+        <Blogs />
         <Qualification />
-        <Work/>
+        <Work />
         {/* <Testimonials/> */}
-        <Contact/>
-
-
+        <Contact />
       </main>
 
-    <Footer/>
-    <ScrollUp/>
-    </div>  
+      <Footer />
+      <ScrollUp />
+    </div>
   );
 }
 

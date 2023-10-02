@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./projects.css"
-import Moree from './Moree';
+
 
 
 export default function Projects() {
+ 
+
+
   return (
     <div className="projects">
       <section className="global" id="projects">
@@ -25,7 +28,7 @@ export default function Projects() {
                 <h5>React</h5>
                 <h5>Redux</h5>
                 <h5>MUI</h5>
-                {/* <p>Stock Tracker App </p> */}
+
                 <div className="butt">
                   <button>
                     <a
@@ -35,7 +38,8 @@ export default function Projects() {
                       GitHub
                     </a>
                   </button>
-                  <button>More...</button>
+
+                  {/* <button> More... </button> */}
                 </div>
               </div>
             </div>
@@ -62,7 +66,8 @@ export default function Projects() {
                       GitHub
                     </a>
                   </button>
-                  <button>More...</button>
+
+                  {/* <button> More... </button> */}
                 </div>
               </div>
             </div>
@@ -83,20 +88,20 @@ export default function Projects() {
                 <div className="butt">
                   <button>
                     <a
-                      href="https://github.com/ozlemakcicek/MyMovieApp"
+                      href="https://github.com/ozlemakcicek/MovieApp"
                       target="blank"
                     >
                       GitHub
                     </a>
                   </button>
-                  <button>More...</button>
+
+                  {/* <button> More... </button> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-    <Moree/>
     </div>
   );
 }
