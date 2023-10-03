@@ -4,7 +4,7 @@ import "./blogs.css"
 const Blogs = () => {
   return (
     <section className="global" id="blogs">
-      <div className="sc-ab Ttitle">
+    <div className='blogs__container'>  <div className="sc-ab Ttitle">
         <h3>
           <span className="section__title">#</span>blogs
           <span className="section__title">------------------</span>
@@ -54,7 +54,8 @@ const Blogs = () => {
             </a>
           </h4>
         </div>
-      </section>
+      </section></div>
+    
     </section>
   );
 }

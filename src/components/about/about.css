@@ -31,7 +31,7 @@ section{
 
 .about__data a{
   
-    margin: 2rem 1.5rem;   
+    margin: 2rem ;   
     padding: 12px 24px;
     cursor: pointer;
     font-size: 2rem;
@@ -41,7 +41,7 @@ section{
         rgb(145, 152, 229) 20px,
         rgb(145, 152, 229) 25px); 
         color: rgb(2, 9, 87);
-    width: 400px;
+    width: 370px;
             font-weight: bold;
             display: block;
             border: none;
@@ -192,9 +192,7 @@ section{
     
  }
 
- .about__data>a{
-    margin-left: 13rem;
- }
+
  .about__info{
     justify-content: center;
  }
@@ -215,21 +213,34 @@ section{
          }
 
                  
-/* .button{
-    margin-left: 0.5rem;
-} */
+        .about__data a {
+            width: 270px;
+            font-size: var(--h2-font-size);
+            margin-left: 17rem;
+    
+        }
                  
 }
 
 @media screen and (max-width:768px) {
     
-
+.about__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
        .about__img{
         margin-top: 2rem;
        }
 
        
-         
+         .about__data a{
+            width: 270px;
+            font-size: var(--h2-font-size);
+           margin-left: 10rem;
+            
+         }
 
                  .double2 {
                      background-color: rgb(39,
@@ -246,19 +257,19 @@ section{
                      /* z-index: 2; */
                  }
  .about__box {
-     width: 150px;
+     width: 250px;
 
  }
 
- .about__data >a{
-    margin-left:7.5rem ;
+ .about__data {
+    margin-left:2rem ;
  }
                    
 
                 
    .about__info{
-           display: grid;
-           grid-template-columns: repeat(3,1fr); 
+           /* display: grid;
+           grid-template-columns: repeat(3,1fr);  */
            
            margin-left: 4rem;
          
@@ -271,19 +282,19 @@ section{
     column-gap: 0.5px;
     margin-left: 1.5rem;
   }
-     .about__box{
+     /* .about__box{
         width: 120px;
        
-     } 
+     }  */
                
-.about__data >a{
-    margin-left: 2rem;
+.about__data a{
+    margin-left: 4.5rem;
 }
-        .about__description{
+        /* .about__description{
             padding: 0;
             margin-left: 3rem;
             width: 70%;
-        }
+        } */
 
 
       
@@ -294,7 +305,8 @@ section{
         }
               
          .section__subtitle{
-            margin-right: 5em; 
+          margin-left: -5rem;
+        
            
             
          }   
@@ -304,9 +316,5 @@ section{
 
 @media screen and (max-width:350px) {
 
-    .about__info{
-        grid-template-columns: repeat(2,1fr);
-        /* margin-left: 3rem; */
-        
-    }
+   
 }

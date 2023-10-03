@@ -18,7 +18,7 @@
 .ort{
     display: grid;
         grid-template-columns: repeat(3,400px);
-        column-gap: 0.5rem;
+        column-gap: 1rem;
      
        justify-content: center;
        margin-top: 3rem
@@ -36,9 +36,9 @@
 }
 
 .alan1{
-    min-width: 355px;
+    min-width: 400px;
         min-height: 550px;
-        max-width: 355px;
+       max-width: 400px; 
         max-height: 473px;
         border: 1px solid rgb(255, 255, 255);
         margin-bottom: 1rem;
@@ -122,18 +122,24 @@ a{
 @media screen and (max-width:1480px) {
     .ort{
      
-        column-gap: 0.5rem;
+        column-gap: 1rem;
           
          
            
            /* margin-left: 8rem; */
           
     }
-         .alan {
+         .ort {
           grid-template-columns: repeat(3,1fr);
-           width: 400px;
+           /* width: 400px; */
             gap: 0.5rem;
          }
+                 .alan1 {
+                     min-width: 300px;
+                    
+                     max-width: 400px;
+                    
+                 }
        
 }
 
@@ -157,7 +163,7 @@ margin-left: 12rem;
 
     .alan{
 
-        width: 100%;
+        
     margin: 1rem 2rem;
     }
         .alan1 {
@@ -188,12 +194,10 @@ margin-left: 12rem;
 
 @media screen and(max-width:576px) {
     .ort {
-        display: grid;
+        
             grid-template-columns: 1fr;
     margin-left: 5rem;
            
         }
-.alan{
-    margin: 1rem 2rem;
-}
+
 }

@@ -4,7 +4,8 @@ import "./Skills.css";
 export default function Skills() {
   return (
     <section className="skills section" id="skills">
-      <div className="sc-ab Ttitle">
+    <div className="skills__container"> 
+    <div className="sc-ab Ttitle">
         <h3>
           <span className="section__title">#</span>skills
           <span className="section__title">------------------</span>
@@ -81,7 +82,8 @@ export default function Skills() {
             </div>
           </div>
         </div>
-      </div>
+      </div></div>
+     
     </section>
   );
 }

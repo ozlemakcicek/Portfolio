@@ -93,6 +93,7 @@ html{
 .container{
   width: 100%;
   
+  
 }
 
 body,
@@ -230,7 +231,7 @@ img{
 /* For large devices*/
 @media screen  and (max-width:992px) {
 
-  
+ 
    /* section{
     /* margin-left: 6rem; */
      /* padding-right: 10px;
@@ -255,10 +256,10 @@ img{
 @media screen and (max-width:768px) {
 
 
-        .section{
+        /* .section{
           padding: 2rem 0 4rem;
        
-        }
+        } */
 
  .section__subtitle {
   margin-bottom: var(--mb-3);

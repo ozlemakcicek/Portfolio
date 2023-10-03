@@ -3,12 +3,17 @@ import "./projects.css"
 
 
 
+
+
+
+
 export default function Projects() {
  
 
 
   return (
-    <div className="projects">
+    <section className='projects section'>
+    <div className="projects__container container grid">
       <section className="global" id="projects">
         <div className="sc-ab Ttitle">
           <h3>
@@ -38,8 +43,11 @@ export default function Projects() {
                       GitHub
                     </a>
                   </button>
+                 
+                   {/* <button> More... </button> */}
+                   
 
-                  {/* <button> More... </button> */}
+                
                 </div>
               </div>
             </div>
@@ -102,6 +110,7 @@ export default function Projects() {
           </div>
         </div>
       </section>
-    </div>
+    </div></section>
+    
   );
 }

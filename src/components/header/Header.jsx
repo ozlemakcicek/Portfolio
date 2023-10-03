@@ -15,6 +15,7 @@ const Header = () => {
   const [activeNav, setActiveNav] = useState("#home");
 
   return (
+    <section>
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
@@ -118,6 +119,8 @@ const Header = () => {
         </div>
       </nav>
     </header>
+    </section>
+    
   );
 };
 

@@ -11,7 +11,7 @@ import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
-import Work from "./components/work/Work";
+import Work from "./components/portfolio/Work";
 import Blogs from "./components/blogs/Blogs";
 
 

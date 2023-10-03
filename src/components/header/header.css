@@ -86,6 +86,7 @@ color: rgba(91, 238, 115, 0.854);;
 
     .nav{
         height: var(--header-height);
+        
     }
 
     .nav__menu{

@@ -199,6 +199,11 @@ a>i{
    .qualification__tabs{
     margin-left: 3rem;
    }
+
+   .qualification__sections {
+       grid-template-columns: initial;
+       margin-left: -3rem;
+   }
 }
 
 @media screen and (max-widt:576px){
