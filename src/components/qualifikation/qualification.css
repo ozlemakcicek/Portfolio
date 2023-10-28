@@ -172,7 +172,7 @@ a>i{
 
 .qualification__data {
     display: grid;
-    grid-template-columns: 3fr max-content 2.3fr;
+    grid-template-columns: 3fr max-content 3.3fr;
 
     
     margin-left: 5px;
@@ -192,12 +192,14 @@ a>i{
     }  
 
    .qualification__container {
-       margin-left: var(--mb-3);
+       margin-left: var(--mb-2);
        margin-right: var(--mb-1-5);
+       grid-template-columns: 1fr;
+      
    }
 
    .qualification__tabs{
-    margin-left: 3rem;
+    margin-left: 2rem;
    }
 
    .qualification__sections {
@@ -208,14 +210,18 @@ a>i{
 
 @media screen and (max-widt:576px){
 .qualification__sections {
-        grid-template-columns: initial;
+        grid-template-columns: 1fr;
     }
+   
+        .qualification__tabs {
+            margin-left: 1rem;
+        }
 
     .qualification__button {
         margin: 0 var(--mb-0-75);
     }
 
-        
+          
 }
 
 /* @media screen and (max-width: 350px) {

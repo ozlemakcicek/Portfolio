@@ -21,13 +21,14 @@
 
 .nav__logo,
 .nav__toggle{
-/* color: white; */
+
 font-weight: var(--font-medium);
 margin-left: 1rem;
-/* display: none; */
+
 background-image: url(../../assets/BGGif-fa34ec49.gif);
+
     background-size: cover;
-    /* font-weight: 600; */
+   
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -77,16 +78,36 @@ color: rgba(91, 238, 115, 0.854);;
 
 /** ======================== BREAKPOINTS ============================*/
 
+@media screen and (max-width:1200px){
+    .nav{
+        margin-left: 5rem;
+        column-gap: 0.5rem;
+    }
+}
+
+
+@media screen and (max-width:992px){
+    .nav {
+            margin-right: 5rem;
+            justify-content: center;
+           
+}
+.nav__logo{
+    margin-left: -5rem;
+    margin-right: 5rem;
+}}
 /* For medium devices*/
 @media screen and (max-width:768px) {
     .header{
         top:initial;
-        bottom: 0;
+        bottom: 0; 
+         
+        
     }
 
     .nav{
         height: var(--header-height);
-        
+      
     }
 
     .nav__menu{

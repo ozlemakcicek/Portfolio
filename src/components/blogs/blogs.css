@@ -82,15 +82,11 @@ h4{
 .sec2 {
      
         grid-template-columns: repeat(2,1fr);
+margin-left:0.5rem;
+
        
     }
 
-   .kiste1,
-   .kiste2,
-   .kiste3,
-   .kiste4 {
-       height: 40vh;
-   }
 
     
 }

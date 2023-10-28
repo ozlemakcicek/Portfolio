@@ -188,6 +188,7 @@ section{
  }
  .about__data{
     text-align: center;
+    
   
     
  }
@@ -216,7 +217,8 @@ section{
         .about__data a {
             width: 270px;
             font-size: var(--h2-font-size);
-            margin-left: 17rem;
+            margin-left: 20rem;
+           
     
         }
                  
@@ -238,9 +240,11 @@ section{
          .about__data a{
             width: 270px;
             font-size: var(--h2-font-size);
-           margin-left: 10rem;
+           margin-left: 11.5rem;
             
          }
+
+         
 
                  .double2 {
                      background-color: rgb(39,

@@ -18,7 +18,7 @@ export default function Projects() {
         <div className="sc-ab Ttitle">
           <h3>
             <span className="section__title">#</span>projects
-            <span className="section__title">------------------</span>
+            <span className="section__title" id='section__title2'>------------------</span>
           </h3>
         </div>
         <div className="ort">

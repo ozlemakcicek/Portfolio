@@ -168,8 +168,8 @@ img{
 
  .Ttitle {
    display: flex;
-   -webkit-box-pack: justify;
-   justify-content: space-between;
+   /* -webkit-box-pack: justify; */
+   /* justify-content: space-between; */
 
    position: relative;
    overflow: hidden;
@@ -177,7 +177,7 @@ img{
    color: rgb(255, 255, 255);
    /* color: rgb(193, 219, 179); */
    align-items: center;
-   margin-left: -18rem;
+   margin-left: -5rem;
 
 
  }
@@ -232,13 +232,7 @@ img{
 @media screen  and (max-width:992px) {
 
  
-   /* section{
-    /* margin-left: 6rem; */
-     /* padding-right: 10px;
-    padding-left: 70px;  */
-    /* margin-right: 4rem; */
- 
-  /* }  */
+
 
     .button {
   /* padding: 1rem 1.75rem; */
@@ -255,11 +249,12 @@ img{
 /* For medium devices*/
 @media screen and (max-width:768px) {
 
+  #section__title2 {
+ margin-left: 1rem;
+  
+    }
 
-        /* .section{
-          padding: 2rem 0 4rem;
-       
-        } */
+    
 
  .section__subtitle {
   margin-bottom: var(--mb-3);
