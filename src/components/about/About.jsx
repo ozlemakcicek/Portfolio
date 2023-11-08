@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/WhatsApp Image 2023-09-02 at 23.46.22 (1).jpeg";
-import CV from "../../assets/OzlemAkcicek_Lebenslauf.pdf";
+import CV from "../../assets/OzlemAkcicek_Resume.pdf";
 import Info from "./Info";
 
 export default function About() {
