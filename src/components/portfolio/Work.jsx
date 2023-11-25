@@ -12,12 +12,12 @@ const Work = () => {
           <h3>
             <span className="section__title">#</span>portfolio
             <span className="section__title" id="section__title2">
-              ------------------
+              *****
             </span>
           </h3>
         </div>
         {/* <h2 className="section__title">Portfolio</h2>*/}
-        <span className="section__subtitle">Most recent works</span>
+        <span className="section__subtitle">Meine favorite Projekte</span>
         <Works />
       </div>
     </section>

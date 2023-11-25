@@ -7,13 +7,13 @@ import WorksItems from './WorksItems';
 
 
 const Works = () => {
-    const[item,setItem]=useState({name:"all"});
+    const[item,setItem]=useState({name:"alle"});
     const[projects, setProjects]=useState([]);
     const [active, setActive]=useState(0);
 
 
     useEffect(() => {
-      if(item.name === "all"){
+      if(item.name === "alle"){
         setProjects(projectsData);
       }
       else{

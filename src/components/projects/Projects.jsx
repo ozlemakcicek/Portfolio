@@ -17,8 +17,8 @@ export default function Projects() {
       <section className="global" id="projects">
         <div className="sc-ab Ttitle">
           <h3>
-            <span className="section__title">#</span>projects
-            <span className="section__title" id='section__title2'>------------------</span>
+            <span className="section__title">#</span>projekte
+            <span className="section__title" id='section__title2'>*****</span>
           </h3>
         </div>
         <div className="ort">
@@ -44,7 +44,7 @@ export default function Projects() {
                     </a>
                   </button>
                  
-                   {/* <button> More... </button> */}
+                  
                    
 
                 

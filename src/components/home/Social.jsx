@@ -30,16 +30,9 @@ const Social = () => {
       >
         <i className="uil uil-github"></i>
       </a>
-      {/* <a
-        href="https://www.xing.com/profile/ozlem_akcicek/cv"
-        className="home__social-icon"
-        target="_blank" 
-      >
-        
-        <box-icon type="logo" name="xing"></box-icon>
-      </a> */}
+    
     </div>
   );}
-  {/* <i class="fa-brands fa-xing"></i> */}
+ 
   
 export default Social

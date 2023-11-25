@@ -27,17 +27,17 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-      <hr />
+        <hr />
 
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link">
-              About
+              Über mich
             </a>
           </li>
           <li>
             <a href="#projects" className="footer__link">
-              Projects
+              Projekte
             </a>
           </li>
           <li>
@@ -75,9 +75,9 @@ const Footer = () => {
           </a>
         </div>
 
-        <h2 className="footer__copy">&#169; ÖzlemAkcicek</h2>
+        <h2 className="footer__copy">&copy; ÖzlemAkcicek</h2>
         <span className="footer__copy">
-          A passionate web developer based in Aachen, Germany
+          Ein leidenschaftlicher Webentwickler mit Sitz in Aachen, Deutschland
         </span>
       </div>
     </footer>

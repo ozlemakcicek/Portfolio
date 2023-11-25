@@ -17,7 +17,7 @@ export const projectsData = [
     title: "BlogApp",
     link: "https://my-blog-app-one-eta.vercel.app/",
     linkgitH: "https://github.com/ozlemakcicek/myBlogApp",
-    category: "Upper Intermediate",
+    category: "obere Mittelstufe",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const projectsData = [
     title: "StockApp",
     link: "https://stock-app-topaz.vercel.app/",
     linkgitH: "https://github.com/ozlemakcicek/StockApp",
-    category: "Upper Intermediate",
+    category: "obere Mittelstufe",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ export const projectsData = [
     title: "MovieApp",
     link: "https://movie-app-phi-peach.vercel.app/",
     linkgitH: "https://github.com/ozlemakcicek/MovieApp",
-    category: "Upper Intermediate",
+    category: "obere Mittelstufe",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const projectsData = [
     title: "Recipe App",
     link: "https://my-recipe-app-project.vercel.app/",
     linkgitH: "https://github.com/ozlemakcicek/My-RecipeAppProject",
-    category: "Intermediate",
+    category: "Mittelstufe",
   },
 
   {
@@ -50,7 +50,7 @@ export const projectsData = [
     title: " NBA-Legends App",
     link: "https://my-nba-legends.vercel.app/",
     linkgitH: "https://github.com/ozlemakcicek/my-NBA-Legends",
-    category: "Elementary",
+    category: "Elementar",
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ export const projectsData = [
     title: " SASS intro",
     link: "https://sass-project-8lcx34465-ozlemakcicek.vercel.app/",
     linkgitH: "https://github.com/ozlemakcicek/SASS-intro",
-    category: "Intermediate",
+    category: "Mittelstufe",
   },
   {
     id: 7,
@@ -66,7 +66,7 @@ export const projectsData = [
     title: " Bootstrap Project",
     link: "https://bootstrap-project-nu.vercel.app/",
     linkgitH: "https://github.com/ozlemakcicek/Bootstrap_Project",
-    category: "Elementary",
+    category: "Elementar",
   },
   {
     id: 8,
@@ -74,7 +74,7 @@ export const projectsData = [
     title: " Weather App",
     link: "https://my-weather-app-lilac-ten.vercel.app/",
     linkgitH: "https://github.com/ozlemakcicek/my-WeatherApp",
-    category: "Elementary",
+    category: "Elementar",
   },
 
   {
@@ -83,22 +83,22 @@ export const projectsData = [
     title: " Horoscope",
     link: "https://horoscope-proj.vercel.app/",
     linkgitH: "https://github.com/ozlemakcicek/DE-04-Horoscope-Proj",
-    category: "Elementary",
+    category: "Elementar",
   },
 ];
 
 export const projectsNav = [
   {
-    name: "all",
+    name: "alle",
   },
   {
-    name: "Upper Intermediate",
+    name: "obere Mittelstufe",
   },
   {
-    name: "Intermediate",
+    name: "Mittelstufe",
   },
 
   {
-    name: "Elementary",
+    name: "Elementar",
   },
 ];

@@ -62,7 +62,7 @@ const Data = () => {
     
    
         <p className="home__description">
-         <span className='title'> I'm a</span> <span className='desc'> Web Designer </span> <span className='title'> and</span> <span className='desc'>Frontend Developer</span> 
+         <span className='title'> Ich bin</span> <span className='desc'> Web Entwickler</span> <span className='title'> und</span> <span className='desc'>Frontend Entwickler</span> 
       </p>
 
       {/* <a href="#contact" className="button button--flex">

@@ -7,20 +7,20 @@ export default function Skills() {
       <div className="skills__container">
         <div className="sc-ab Ttitle">
           <h3>
-            <span className="section__title">#</span>skills
+            <span className="section__title">#</span>fähigkeiten
             <span className="section__title" id="section__title2">
-              ------------------
+              *****
             </span>
           </h3>
         </div>
 
-        <span className="section__subtitle">My Technical Level</span>
+        <span className="section__subtitle">Mein technisches Niveau</span>
 
         <div className="skills__container container grid">
           <div className="tablo">
             <div className="tbl">
               <div className=" title__box">
-                <h5>Languages</h5>
+                <h5>Sprache</h5>
               </div>
 
               <div>
@@ -46,6 +46,7 @@ export default function Skills() {
                   <li>Postman</li>
                   <li>GitHub</li>
                   <li>Netlify</li>
+                  <li>Vercel</li>
                 </ul>
               </div>
             </div>
@@ -54,15 +55,13 @@ export default function Skills() {
           <div className="tablo">
             <div className="tbl">
               <div className=" title__box">
-                <h5>Others</h5>
+                <h5>Andere</h5>
               </div>
 
               <div>
                 <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Bootstrap</li>
-                  <li>Mui</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
                   <li>GIT</li>
                   <li>Firebase</li>
                 </ul>
@@ -78,8 +77,11 @@ export default function Skills() {
 
               <div>
                 <ul>
-                  <li>React</li>
+                  <li>React.js</li>
                   <li>Django</li>
+                  <li>Bootstrap</li>
+                  <li>Mui</li>
+                  <li>Tailwind</li>
                 </ul>
               </div>
             </div>

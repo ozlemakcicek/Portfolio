@@ -47,7 +47,7 @@ const Header = () => {
                 }
               >
                 {/* <i className="uil uil-user nav__icon"></i> */}
-                #about-me
+                #über mich
               </a>
             </li>
  <li className="nav__item">
@@ -61,7 +61,7 @@ const Header = () => {
                 }
               >
                 {/* <i className="uil uil-briefcase nav__icon"></i> */}
-                #projects
+                #projekte
               </a>
             </li>
             <li className="nav__item">
@@ -75,7 +75,7 @@ const Header = () => {
                 }
               >
                 {/* <i className="uil uil-file-alt nav__icon"></i> */}
-                #skills
+                #fähigkeiten
               </a>
             </li>
 
@@ -105,7 +105,7 @@ const Header = () => {
                 }
               >
                 {/* <i className="uil uil-message nav__icon"></i> */}
-                #contact
+                #kontakt
               </a>
             </li>
           </ul>

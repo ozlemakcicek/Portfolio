@@ -8,22 +8,22 @@ const Contact = () => {
         {" "}
         <div className="sc-ab Ttitle">
           <h3>
-            <span className="section__title">#</span>contact
+            <span className="section__title">#</span>kontakt
             <span className="section__title" id="section__title2">
-              ------------------
+              *****
             </span>
           </h3>
         </div>
         <div className="contact">
           <div className="schrift">
             <h5>
-              I am interested in front-end positions, Allthough, you can always
-              reach out to me.
+              Ich interessiere mich für Front-End-Positionen, das ist aber immer
+              möglich. Melden Sie sich bei mir.
             </h5>
           </div>
 
           <div className="msg__box">
-            <h5>Message me here</h5>
+            <h5>Schreiben Sie mir hier eine Nachricht</h5>
 
             <div className="mail">
               <a
@@ -37,7 +37,7 @@ const Contact = () => {
 
             <span className="mail">
               <i class="bx bxs-mobile"></i>
-              017684950573
+              +49 17684950573
             </span>
           </div>
         </div>

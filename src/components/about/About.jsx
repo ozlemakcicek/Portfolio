@@ -18,6 +18,7 @@ export default function About() {
                 "Die grundlegenden Bedingungen für Glück sind etwas zu tun zu
                 haben, etwas zu lieben zu haben und auf etwas zu hoffen."
               </h5>
+              <i>Johann Gottfried Seume</i>
 
               <div className="double2">
                 <p>**</p>
@@ -28,8 +29,10 @@ export default function About() {
       </div>
       <div className="sc-ab Ttitle">
         <h3>
-          <span className="section__title">#</span>about-me
-          <span className="section__title" id="section__title2">------------------</span>
+          <span className="section__title">#</span>über mich
+          <span className="section__title" id="section__title2">
+            *****
+          </span>
         </h3>
       </div>
 
@@ -43,19 +46,19 @@ export default function About() {
           <p className="about__description">
             Ich bin ein Frontend- und Backend-Entwickler mit einer Leidenschaft
             für die Erstellung beeindruckender digitaler Lösungen.
-            <br /> Im Frontend-Bereich setze ich moderne Technologien wie HTML,
-            CSS und JavaScript ein, um ansprechende Benutzeroberflächen zu
+            <br /> Im Frontend-Bereich setze ich moderne Technologien wie HTML5,
+            CSS3 und JavaScript ein, um ansprechende Benutzeroberflächen zu
             gestalten.
             <br />
             Mit Frameworks wie React bringe ich Interaktivität und reibungslose
             Benutzererlebnisse in meine Projekte ein.
           </p>
 
-          <span className="section__subtitle">My Introduction</span>
+          <span className="section__subtitle">Meine Einleitung</span>
           <Info />
-          
+
           <a download href={CV} className="button button--flex">
-            Herunterladen CV
+           CV Herunterladen 
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"

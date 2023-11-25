@@ -10,7 +10,7 @@ const Blogs = () => {
           <h3>
             <span className="section__title">#</span>blogs
             <span className="section__title" id="section__title2">
-              ------------------
+              *****
             </span>
           </h3>
         </div>
