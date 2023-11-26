@@ -18,7 +18,7 @@ export default function About() {
                 "Die grundlegenden Bedingungen für Glück sind etwas zu tun zu
                 haben, etwas zu lieben zu haben und auf etwas zu hoffen."
               </h5>
-              <i>Johann Gottfried Seume</i>
+              <em>Johann Gottfried Seume</em>
 
               <div className="double2">
                 <p>**</p>

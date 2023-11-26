@@ -97,7 +97,14 @@ hr {color: rgb(128, 121, 121);
 @media screen and (max-width:576px) {
 
    hr{
-    width: 90%;
-    margin-left: 1.5rem;
-   }
+    width: 80%;
+    margin-left: 4.5rem;
+   margin-top: 3rem;
+
 }
+}
+
+.footer__list{
+    font-size: 15px;
+}
+

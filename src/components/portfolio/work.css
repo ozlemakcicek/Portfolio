@@ -166,6 +166,10 @@
     .work__item{
         text-align: center;
     }
+
+    .work__card{
+        width: 250px;
+    }
         
 }
 

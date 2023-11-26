@@ -211,6 +211,8 @@ a>i{
 @media screen and (max-widt:576px){
 .qualification__sections {
         grid-template-columns: 1fr;
+   
+    
     }
    
         .qualification__tabs {
@@ -221,7 +223,10 @@ a>i{
         margin: 0 var(--mb-0-75);
     }
 
-          
+
+
+
+ 
 }
 
 /* @media screen and (max-width: 350px) {

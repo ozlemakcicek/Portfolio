@@ -118,12 +118,19 @@ margin-left:0.5rem;
    .sec2{
     display: grid;
     grid-template-columns: 1fr;
-    width: 320px;
+    width: 250px;
     justify-content: center;
     align-items: center;
     margin-left: 5rem;
+
+    
    }
-   
+   .sec2 h4 {font-size: 15px;
+text-align: center;
+    }
+
+
+
 }
 
 /* For small devices*/

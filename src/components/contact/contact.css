@@ -32,10 +32,7 @@
 
 
 
-/* .msg__box{
-  margin-left: 30rem;
-  
-} */
+
 .me__here{
    font-weight: 600;
 }
@@ -175,9 +172,9 @@ grid-template-columns: 1fr;
 
 }
 .msg__box{
-    margin-right: 3rem;
-    width: 80%;
-    margin-top: 9rem;
+    margin-right: 1rem;
+    width: 250px;
+    margin-top: 13rem;
 }
 }
 
