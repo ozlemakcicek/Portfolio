@@ -8,7 +8,7 @@ export default function Qualification() {
   };
 
   return (
-    <section className="qualification section">
+    <section className="qualification__sections">
       <div className="qualification__container container grid">
         <h2 className="section__title1">Qualifikation</h2>
         <span className="section__subtitle1">Meine persönliche Reise</span>

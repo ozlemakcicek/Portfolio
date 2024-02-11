@@ -172,10 +172,10 @@ a>i{
 
 .qualification__data {
     display: grid;
-    grid-template-columns: 3fr max-content 3.3fr;
+    grid-template-columns: 2fr max-content 2fr;
 
     
-    margin-left: 5px;
+    /* margin-left: 5px; */
 }
   
 
@@ -192,10 +192,10 @@ a>i{
     }  
 
    .qualification__container {
-       margin-left: var(--mb-2);
-       margin-right: var(--mb-1-5);
-       grid-template-columns: 1fr;
-      
+       margin-left: 3rem;
+       
+       /* grid-template-columns: 1fr;
+       */
    }
 
    .qualification__tabs{
@@ -229,17 +229,3 @@ a>i{
  
 }
 
-/* @media screen and (max-width: 350px) {
-    .qualification__data {
-        gap: 0.5rem;
-    }
-
-    .qualification__tabs {
-        flex-direction: column;
-        gap: 2px;
-    }
-
-    .qualification__button {
-        justify-content: center;
-    }
-} */
